@@ -1,6 +1,5 @@
 # Hilo
 
-
 ## Getting Started
 ---
 Make sure you have Python 3.8.0 or newer installed and running on your machine. Open a terminal and 
