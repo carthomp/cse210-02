@@ -27,4 +27,6 @@ root                    (project root folder)
 
 ## Authors
 ---
-
+Carter Thompson
+Mario Meza
+Lili Mastroeni
