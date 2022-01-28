@@ -14,10 +14,13 @@ project folder. Select the main module inside the dice folder and click the "run
 ---
 The project files and folders are organized as follows:
 ```
-root                    (project root folder)
-+-- game              (specific classes)
-+-- __main__.py       (program entry point)
-+-- README.md           (general info)
+root                     (project root folder)
++-- game                 (specific classes)
++--+-- card.py               (card class)
++--+-- director.py           (director class)
++-- __main__.py          (program entry point)
++-- README.md            (general info)
++-- design-plan.md       (design document)
 ```
 
 ## Required Technologies

@@ -1,10 +1,15 @@
 from game.card import Card
 class Director:
     '''
-    [What this Class does]
+    The Director class manages the game turns, the "drawing" of new cards, and the scorekeeping.
 
     Attributes:
-        [the attributes of this class]
+        hilo (instance of Card()) - the first card generated
+        current_value (int) - the number value of the first card initially, updated as new cards are drawn
+        is_playing (bool) - boolean value used to continue the loop or break sequence
+        total_score (int) - the player's score, which will end the game when 0 or negative
+        new_card_value (int) - the number value of the second card drawn
+        guess_card (str) - the 'h' or 'l' guessed by the player
     '''
     def __init__(self):
         '''
@@ -23,10 +28,10 @@ class Director:
 
     def start_game(self):
         '''
-        [What this method does]
+        Starts the main game loop by calling the other 3 methods.
 
         Attributes:
-            [the attributes of this method, usually only self]
+            self (Director): An instance of Director.
         '''
         while self.is_playing:
             self.do_body_game()
@@ -39,7 +44,7 @@ class Director:
         Updates the player's score.
 
         Attributes:
-            aelf (Director): An instance of Director.
+            self (Director): An instance of Director.
         '''
         if not self.is_playing:
             return
