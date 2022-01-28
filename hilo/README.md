@@ -27,6 +27,6 @@ root                    (project root folder)
 ## Authors
 ---
 Carter Thompson - carthomp88@byui.edu
-Mario Meza
+Mario Meza - mariolm@byui.edu
 Veronica Bardales - v.bardalesvelsquez
 Alvaro Condori - con21033@byui.edu

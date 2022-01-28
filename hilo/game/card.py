@@ -2,10 +2,11 @@ import random
 class Card:
     def __init__(self):
         '''
-        [What this method d]
+        Initialize the card with a random number between 1 to 13 and
+        assign the values of the letters A , J, Q, K.
 
         Attributes:
-            [the attributes of this method, usually only self]
+            self (Card): An instance of Card
         '''
         self.value_card = random.randint(1,13)
         self.value = 0
