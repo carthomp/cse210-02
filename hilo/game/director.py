@@ -19,6 +19,7 @@ class Director:
         self.total_score = 300
         self.new_card_value = -1
         self.guess_card = ""
+        self.next_card = 0
 
     def start_game(self):
         '''
@@ -77,7 +78,8 @@ class Director:
 
     def get_inputs(self):
         '''
-        Ask for 
+        Ask if the player wants to play again. Depends of the answer break or 
+        continue playing. The play stop if the total score is 0 or less.
 
         Attributes:
             self (Director): An instance of Director.
